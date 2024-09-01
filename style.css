@@ -692,7 +692,7 @@ footer {
 
 @media (min-width: 520px) and (max-width: 768px) {
   .hero > :first-child {
-    font-size: 38px;
+    font-size: 45px;
     font-weight: bolder;
     font-family: "Martel Sans", sans-serif;
   }
@@ -808,7 +808,7 @@ footer {
 
 @media  (min-width: 430px) and (max-width:520px) {
   .hero > :first-child {
-    font-size: 24px;
+    font-size: 33px;
   }
 
   .hero > :nth-child(2) {
@@ -856,7 +856,7 @@ footer {
     padding: 20px 1rem;
     position: relative;
     z-index: 1;
-    top: 70px;
+    top: -40px;
     font-size: 26px;
     text-align: center;
   }
@@ -867,7 +867,7 @@ footer {
     
   }
   .container {
-    margin-top: 80px;
+    margin-top: -100px;
   }
   .grid-tag {
     margin-top: 13rem;
@@ -891,29 +891,46 @@ footer {
     height: 70%;
     align-items: center;
     
+    
   }
+
+  .item{
+    margin: 0 -30px;
+  }
+
+  .item img {
+    
+    height: 30%;
+    width: 70%;
+  }
+
+
   .show {
         height: 70%;
         display: flex;
         align-items: center;
         padding: 10px 0 0 19px;
         margin: 0 72px;
+        
   }
 
+  
   .grid-container {
 
+    margin-top: -140px;
     height: 100%;
  
   }
 
   .no {
     
-    top: 150px;
-    left: -25px;
+    top: 90px;
+    left: -20px;
+    font-size: 70px;
   }
 
   .scroll-button {
-    margin: 40px 27px 0 26px;
+    margin: -100px 27px 0 26px;
   }
 
   .faq {
@@ -922,7 +939,7 @@ footer {
 
   .faq h2 {
     font-size: 22px;
-    margin-bottom: 30px;
+    margin-bottom: -30px;
   }
 
  .dropbtn{
@@ -1011,13 +1028,11 @@ footer {
     height: 50%;
   }
   .show {
-    height: 100%;
+    height: 70%;
     display: flex;
     align-items: center;
-    background-color: transparent;
-    padding: 0 0 0 0;
-    margin: -100px 77px 0 85px;
-    gap: -80px;
+    padding: 10px 0 0 19px;
+    margin: 0 72px;
   }
 
   .item {
@@ -1041,7 +1056,7 @@ footer {
   }
 
   .scroll-button {
-    margin: -40px 35px 0 40px;
+    margin: -40px 35px 0 60px;
   }
 
   .dropdown {
@@ -1056,7 +1071,7 @@ footer {
   }
 
   .faq h2{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .email {
@@ -1092,5 +1107,13 @@ footer {
         text-align: center;
         padding: 10px 15px;
         font-size: 19px;
+    }
+
+    .show{
+      height: 70%;
+      display: flex;
+      align-items: center;
+      padding: 10px 0 0 19px;
+      margin: 0 72px;
     }
 }
