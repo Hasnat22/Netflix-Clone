@@ -347,9 +347,7 @@ button{cursor: pointer;}
   transition: all 0.5s ease-out;
 }
 
-.faq-box svg {
-  color: white;
-}
+
 
 .faq-box:hover {
   background-color: rgb(65, 63, 63);
@@ -539,9 +537,14 @@ footer {
     max-width: 90vw;
   }
 
+  .spann{
+    font-size: 20px;
+    margin-top: -10px;
+  }
   .footer {
     grid-template-columns: 1fr;
     max-width: 90vw;
+    font-size: 20px;
   }
 
   .dropdown {
@@ -1083,7 +1086,7 @@ footer {
 }
 
 
-@media (min-width:290) and (max-width:430px) {
+@media (min-width:300) and (max-width:430px) {
     .grid-tag {
         margin-top: 29rem;
         display: flex;
@@ -1109,11 +1112,5 @@ footer {
         font-size: 19px;
     }
 
-    .show{
-      height: 70%;
-      display: flex;
-      align-items: center;
-      padding: 10px 0 0 19px;
-      margin: 0 72px;
+    
     }
-}
