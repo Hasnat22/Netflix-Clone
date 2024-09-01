@@ -12,7 +12,7 @@ body {
 
 /* Main Section */
 .main {
-  background-image: url("/Assets/img/background.jpg");
+  background-image: url("./Assets/img/background.jpg");
   background-position: center;
   background-size: cover;
   width: 100vw;
